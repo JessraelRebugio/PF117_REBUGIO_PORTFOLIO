@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <img src="Profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <div class="hero-text">
+        <h2>Hello, I'm <span>Jessrael Rebugio</span></h2>
+        <p>A <span class="input"></span></p>
+        <a href="#contact" class="btn hire-me">Hire Me</a>
+        <a href="#projects" class="btn">View My Work</a>
+        <div class="social-links">
+          <a href="https://www.facebook.com/jessrael.rebugio" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/accounts/edit/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Back to Top Button -->
+<button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <img src="Profile.jpg" alt="About Me" class="about-img">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hi! I’m Jessrael, a passionate web developer with a love for creating
+          elegant, user-friendly websites. I enjoy turning complex problems into
+          simple, beautiful, and intuitive designs.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills-->
+
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    
+    <div class="skills-container">
+  
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <div class="skill-bar"><span style="width: 90%;"></span></div>
+        <p class="skill-percent">90%</p>
+      </div>
+  
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <div class="skill-bar"><span style="width: 85%;"></span></div>
+        <p class="skill-percent">85%</p>
+      </div>
+  
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><span style="width: 80%;"></span></div>
+        <p class="skill-percent">80%</p>
+      </div>
+  
+      <div class="skill-card">
+        <h3>UI/UX Design</h3>
+        <div class="skill-bar"><span style="width: 75%;"></span></div>
+        <p class="skill-percent">75%</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- Project-->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+  
+    <div class="project-grid">
+  
+      <div class="project-card">
+        <div class="project-img">
+          <img src="4thfolio.png" alt="Portfolio Website Screenshot" />
+        </div>
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS, and JavaScript.</p>
+        <a class="project-btn" href="#">View Project</a>
+      </div>
+  
+      <div class="project-card">
+        <div class="project-img">
+          <img src="2dolist.jpg" alt="To-Do List App Screenshot" />
+        </div>
+        <h3>To-Do List App</h3>
+        <p>A dynamic task manager app with basic DOM manipulation.</p>
+        <a class="project-btn" href="#">View Project</a>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jessrael Rebugio. All rights reserved.</p>
+  </footer>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="Script.js"></script>
+</body>
+</html>
